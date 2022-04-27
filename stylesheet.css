@@ -1,8 +1,27 @@
 html{
+  height: 100%;
+}
+h2{
+
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 25% 50% 20%;
+  justify-content: center;
+}
+.grid-items{
+  grid-row: 2;
+  z-index: 3;
+}
+}
+body{
   /*
   static background, floating content, maybe some sort of gradient
   subieparts website is a great inspiration*/
   background: rgb(207,207,207);
-background: linear-gradient(rgba(207,207,207,1) 0%, rgba(125,233,255,1) 100%)no-repeat;
+background: linear-gradient(rgba(125,233,255,1) 0%, rgba(207,207,207,1) 100%)no-repeat;
 height: 100%;
+position: fixed;
+z-index: 2;
 }
