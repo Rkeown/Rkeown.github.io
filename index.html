@@ -1,16 +1,78 @@
 
 <!DOCTYPE html>
 <html>
+<!-- These are comments :) Throughout these comments I'll hopefully help you understand what
+      you're looking at. For starters this is the html of the website, basically all the content
+      of any page you visit will resemble this. all html is wrapped in little markers that go like so:
+      <beginning marker> all the content you want or even more markers nested inside</closing marker>
+      if you scroll down to the <h1> marker you'll see an real example that is easy to follow-->
 <body>
   <link rel="stylesheet" href="stylesheet.css">
-  <div class="grid-container">
-    <div class="grid-items">
-      <h1 id="Title">LES SYMBOLES DANS L'ALCHEMISTE</h1>
-      <br>
-      <h2>Les Moutons</h2>
-      <p>Les moutons représentent les personnes qui sont content avec une vie qui n’a rien intéressant et aucune changements.</p>
-      <p>Ils sont aussi une méthode de critique par Coelho sur les personnes qui sont seulement intéressé par des possession matériaux. Les moutons sont seulement intéressés par où sera leur prochain champ pour manger et boire du l’eau, dans la même sens que les personnes sont trop concentrées sur des choses comme quand est-ce que c’est la prochaine fois où ils seront paye et l’auto qu’ils conduisent.</p>
-      <p>Finalement ils sont aussi un commentaire sur les personnes qui ont de la confiance aveugle, les moutons suivre Santiago n’importe d’où, et pays aucune attention quand un des moutons est toué ou vendu.</p>
+  <!-- divs like the one below are basically just a container
+  and help with organising content in a page -->
+  <div class="container">
+    <!--Each of the divs is given a class which helps to refrence it when adding style to the page-->
+    <!--The container div is a grid-box container. Basically grid-box allows you to overlay a grid
+        onto the screen helping with placing items where you want them, and my prefered method of doing so-->
+    <div class="body">
+      <!--The body and content div just help with organising everything a bit more, I also just copied them
+          from an online example to help me get my idea working. No it's not plagiarism anyone who posts examples
+          or solutions to coding problems online knows that others are going to copy it, its just accepted as a
+          fact because everyone does it. It's kind of a culture thing.-->
+      <div class="content">
+
+          <h1 id="Title">LES SYMBOLES DANS L'ALCHEMISTE</h1>
+          <!--h1 just stands for Header 1 which is the largest header size for text-->
+          <br>
+          <br>
+          <!--the <br>s just add a single line break to the content of the page, basically like hitting enter 2x
+              when typing in a word document. Don't mind any actual line breaks in the code as they don't affect the final
+              product and just server to make the code easier to loo at.-->
+          <h2 id="Moutons">Les Moutons</h2>
+          <br>
+          <img src="Images/Sheepbybb.png">
+          <br>
+          <p>Les moutons représentent les personnes qui sont content avec une vie qui n’a rien intéressant et aucune changements.</p>
+          <p>Ils sont aussi une méthode de critique par Coelho sur les personnes qui sont seulement intéressé par des possession matériaux. Les moutons sont seulement intéressés par où sera leur prochain champ pour manger et boire du l’eau, dans la même sens que les personnes sont trop concentrées sur des choses comme quand est-ce que c’est la prochaine fois où ils seront paye et l’auto qu’ils conduisent.</p>
+          <p>Finalement ils sont aussi un commentaire sur les personnes qui ont de la confiance aveugle, les moutons suivre Santiago n’importe d’où, et pays aucune attention quand un des moutons est toué ou vendu.</p>
+          <!--<p> is just a marker for a paragraph, they don't always have to be an actual paragraph long but
+              it's just a marker for making the standard size text blocks. I layered a bunch of them here
+              just because I was lazy and didn't want to have to clean up a mess of line breaks with <br>s
+              because the applications used for coding will don't automatically make a new line when typing and
+              just keep going horizontally forever-->
+          <br>
+          <br>
+
+          <h2 id="Alchimie">Alchimie</h2>
+          <br>
+          <img src="Images/alchemybybb.png">
+          <br>
+          <p>L’alchimie représente la quête de Santiago vers sa Légende Personnelle. Pour achever cette quête Santiago devrait débarrasser de ces impérities pour arriver à un état élevé d’être.<br>
+          Les impérities comme:</p>
+          <ul>
+            <li>La désire d’être un berger riche</li>
+            <li>La désire de resté avec Fatima</li>
+            <li>La désire de rerecevoir la validation de ces parents</li>
+          </ul>
+          <!--here's the last tidbit of info for this file, above is a list. the <ul> stands for
+              unordered list and the <li> stands for list item. This is the best way to make a bullet point list.-->
+          <p>Au même temps, Santiago été aidé par l’alchimie, s'il n’a pas appris le langage du monde, il ne pourrait pas interpréter les signes des oiseaux pour protéger L’Oasis, et il n’aura pas eu l’alchimiste du l’oasis comme une guide.</p>
+
+          <br>
+          <br>
+
+          <h2>Les Pyramides</h2>
+          <br>
+          <img src="Images/pyramidsbybb.png">
+          <br>
+          <p>Les pyramides symbolisent lin fin de la quête de Santiago pour sa légende personnel; S'il arrive aux pyramides il peut trouver son trésor et accomplir sa légende personnelle. Au même temps, ils ne sont pas le vrai but de la quête de Santiago, ils sont plutôt une méthode a symbolise les expériences du Santiago, son voyage, et comment il a grandi comme une personne. Ils ne sont pas le vrai trésor parce que le vrai trésor été sa famille.</p>
+
+          <br>
+          <br>
+
+          <h2>
+        </div>
+
     </div>
   </div>
   <br>
